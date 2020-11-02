@@ -17,7 +17,7 @@ public class countMatrixDiagonal {
             Scanner input = new Scanner(System.in);
             String number = input.nextLine();
             String[] strs = number.split("\\ ");  // 把一行输入的数分开
-            for (j=0; j<4; j++) {
+            for (j = 0; j < 4; j++) {
                 myMat[i][j] = new Double(strs[j]);
             }
         }
